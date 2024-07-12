@@ -1,10 +1,5 @@
 ---
-title: Disabling and enabling a workflow
-intro: 'You can disable and re-enable a workflow using the {% data variables.product.prodname_dotcom %} UI, the REST API, or {% data variables.product.prodname_cli %}.'
-versions:
-  fpt: '*'
-  ghes: '*'
-  ghec: '*'
+title: 
 shortTitle: Disable & enable a workflow
 redirect_from:
   - /actions/managing-workflow-runs/disabling-and-enabling-a-workflow
@@ -17,8 +12,7 @@ Disabling a workflow allows you to stop a workflow from being triggered without 
 Temporarily disabling a workflow can be useful in many scenarios. These are a few examples where disabling a workflow might be helpful:
 
 * A workflow error that produces too many or wrong requests, impacting external services negatively.
-* A workflow that is not critical and is consuming too many minutes on your account.
-* A workflow that sends requests to a service that is down.
+* A workflow that is not a service that is down.
 * Workflows on a forked repository that aren't needed (for example, scheduled workflows).
 
 {% warning %}
